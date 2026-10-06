@@ -1,0 +1,13 @@
+# Visual Studio temporary files
+.vs/
+
+# Build results
+bin/
+obj/
+
+# User-specific Visual Studio files
+*.user
+*.suo
+
+# Rider / VS Code optional files
+.idea/
