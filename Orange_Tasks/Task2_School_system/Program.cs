@@ -35,7 +35,7 @@ Console.WriteLine("===== Grade Information =====");
 Console.WriteLine("Original Average: " + studentAverage);
 Console.WriteLine("Bonus Mark: 5" );
 double newStudentAverage = studentAverage+5;
-Console.WriteLine("New  Average: " + studentAverage);
+Console.WriteLine("New  Average: " + newStudentAverage);
 
 string result = studentGrade >= 50 ? "Result Passed" : "Result Failed";
 

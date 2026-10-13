@@ -8,6 +8,7 @@
 
     while (true)
     {
+        Console.WriteLine($"\n Your guess: {randNum} \n");
         Console.Write("Guess a number between 50 and 75: ");
         int guess = Convert.ToInt32(Console.ReadLine());
         if (guess == randNum)
@@ -77,6 +78,7 @@ printNamesAndGrades();
 void checkStudentName()
 {
     string[] names=  {"Ahmad","Sara","Omar","Lina","Yazan"};
+    Console.WriteLine("\nEnter the student name you want to search for:");
     string studentName = Console.ReadLine();
     int i = 0;
     bool found = false;
